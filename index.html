@@ -284,6 +284,23 @@ body{
   text-decoration:none;
   border-bottom:1px solid rgba(159,183,255,.35);
 }
+.action a.cta{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  padding:12px 18px;
+  border-radius:999px;
+  border:1px solid rgba(159,183,255,.55);
+  background:rgba(159,183,255,.15);
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.14em;
+}
+.action a.cta:hover{
+  background:rgba(159,183,255,.25);
+  border-color:rgba(159,183,255,.85);
+}
 
 /* AVISO */
 .notice{
@@ -424,7 +441,7 @@ body{
                 e movimentações institucionais, com atualização mensal.
               </p>
               <p>Conteúdo de referência. Não operacional.</p>
-              <a href="termometro.html">Acesso público</a>
+              <a class="cta" href="termometro.html">Acesso público</a>
             </div>
           </div>
         </div>
