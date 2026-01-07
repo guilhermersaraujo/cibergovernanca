@@ -824,9 +824,6 @@
             </p>
 
             <div style="display:flex; gap:10px; flex-wrap:wrap;">
-              <a class="btn btnPrimary" href="./termometro.html" id="btnEntrar" title="Abrir Termômetro Regulatório">
-                <span class="dot" aria-hidden="true"></span> Entrar no Termômetro
-              </a>
               <a class="btn" href="./radar-acesso.html" title="Avançar para Radar (entrada)">
                 Avançar (Radar)
               </a>
@@ -953,10 +950,6 @@ Declaro que não incluí dados sensíveis ou informações não públicas.
       }
       markAccess();
       window.location.href = buildMailto();
-    });
-
-    $("btnEntrar").addEventListener("click", ()=>{
-      markAccess();
     });
 
     markAccess();
